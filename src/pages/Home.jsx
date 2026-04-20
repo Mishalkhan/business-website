@@ -17,21 +17,9 @@ const Home = () => {
     />
 
     {/* Overlay Content */}
-    <div className="absolute inset-0 flex items-center">
+    <div className="absolute inset-0 flex items-center ">
 
-    <div className='absolute top-10 left-5 md:top-28 md:left-28'>
-            <div className='w-full md:w-5/12 bg-[#F3F0EB] relative'>
-            <div className='py-10 px-5 md:pb-8 md:pt-28 md:px-14'>
-                <h1 className='text-xl md:text-5xl pb-5 md:pb-14'>Stunning interior design services, now within reach.</h1>
-                <Link to="/" className="nav-link">
-                <button className="bg-[#E59400] border-2 border-[#E59400] hover:bg-transparent hover:text-black hover:border-2 text-black py-2 md:py-3 px-5 md:px-10 rounded-full font-medium text-sm md:text-base">
-                    FIND YOUR STYLE
-                </button>
-                </Link>
-            </div>
-            <img src='/carousel/tag1.png' className='absolute -top-5 left-5 md:left-14 w-10 md:w-20'/>
-            </div>
-        </div><div className='absolute top-10 left-5 md:top-28 md:left-28'>
+        <div className='absolute top-25 left-5 right-5  md:top-28 md:left-28'>
             <div className='w-full md:w-5/12 bg-[#F3F0EB] relative'>
             <div className='py-10 px-5 md:pb-8 md:pt-28 md:px-14'>
                 <h1 className='text-xl md:text-5xl pb-5 md:pb-14'>Stunning interior design services, now within reach.</h1>

@@ -11,7 +11,7 @@ const HowItWorks = () => {
       <h1 className="text-4xl md:text-6xl lg:text-8xl font-light text-white">M.Khan's Interior Design Process</h1>
       <p className="text-xl md:text-2xl lg:text-3xl text-white pt-4 md:pt-8">The easiest way to design your space.</p>
       <Link to="/portfolio">
-      <button className="bg-[#E59400] border-2 border-[#E59400] hover:bg-transparent hover:text-white hover:border-[#E59400] text-black py-2 px-6 md:py-2 md:px-14 rounded-full font-extralight text-sm md:text-lg mt-6 md:mt-10 cursor-pointer">
+      <button className="bg-[#E59400] border-2 border-[#E59400] hover:bg-transparent hover:text-white hover:border-[#E59400] text-black py-2 px-6 md:py-2 md:px-14 rounded-full font-extralight text-sm md:text-lg my-6 md:mt-10 cursor-pointer">
        GET STARTED
       </button>
       </Link>
